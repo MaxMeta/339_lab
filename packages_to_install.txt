@@ -1,0 +1,10 @@
+conda create -n biol339 python=3.9
+conda activate biol339
+conda install -c bioconda spades
+pip install jupyterlab
+pip install bash_kernel
+python -m bash_kernel.install
+conda install -c bioconda kallisto
+conda install -c bioconda glimmer
+pip install pydeseq2
+conda install -c bioconda adapterremoval

@@ -1,6 +1,6 @@
 #!/bin/bash
 conda create -n biol339 python=3.9 -y
-conda activate biol339
+source activate biol339
 conda install -c bioconda spades -y
 pip install jupyterlab
 pip install bash_kernel
